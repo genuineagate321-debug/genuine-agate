@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Crystal Collection</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #faf7ff;
+            color: #333;
+        }
+
+        header {
+            background: #5b3a82;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 90px 20px;
+            background: #eee4f8;
+        }
+
+        .hero h2 {
+            font-size: 45px;
+            color: #5b3a82;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #5b3a82;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        .collection {
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .collection h2 {
+            color: #5b3a82;
+            margin-bottom: 35px;
+            font-size: 32px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .card .crystal {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #5b3a82;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            line-height: 1.5;
+        }
+
+        footer {
+            background: #5b3a82;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Crystal Collection</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#collection">Collection</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h2>Discover the Beauty of Crystals ✨</h2>
+
+        <p>
+            Explore our beautiful collection of natural crystals.
+            Every crystal is unique, featuring its own colors,
+            patterns and natural formations.
+        </p>
+
+        <a href="#collection" class="button">Explore Collection</a>
+    </section>
+
+    <section class="collection" id="collection">
+
+        <h2>Our Crystal Collection</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="crystal">💜</div>
+                <h3>Amethyst</h3>
+                <p>
+                    A beautiful purple crystal known for its
+                    fascinating color and natural beauty.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="crystal">🤍</div>
+                <h3>Quartz</h3>
+                <p>
+                    A classic crystal admired for its clear,
+                    sparkling appearance and natural formations.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="crystal">💙</div>
+                <h3>Blue Crystal</h3>
+                <p>
+                    Beautiful blue tones and unique patterns
+                    make each piece special.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="collection" id="about">
+        <h2>About Crystals</h2>
+
+        <p>
+            Crystals are natural formations created through
+            geological processes over long periods of time.
+            Their unique shapes, colors and patterns make them
+            fascinating for collectors and nature lovers.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Crystal Collection | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
